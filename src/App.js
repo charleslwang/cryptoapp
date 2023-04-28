@@ -23,11 +23,17 @@ const App = () => {
                         </Routes>
                     </div>
                 </Layout>
-            </div>
-            <div className = "footer">
-                <Typography.Title>
-
-                </Typography.Title>
+                <div className = "footer">
+                    <Typography.Title level = {5} style={{ color: 'white', textAlign: 'center' }}>
+                        Crypto World <br />
+                        All rights reserved
+                        <Space>
+                            <Link to="/">Home</Link>
+                            <Link to="/exchanges">Exchanges</Link>
+                            <Link to="/news">News</Link>
+                        </Space>
+                    </Typography.Title>
+                </div>
             </div>
         </div>
     );
